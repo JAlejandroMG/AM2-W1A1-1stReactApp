@@ -1,0 +1,56 @@
+/* * {
+  box-sizing: border-box
+}; */
+
+.App {
+  background: #43658b;
+  width: 60%;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+p {
+  font-size: .8rem;
+}
+
+.main-row {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 20vh; */
+}
+
+.row {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  align-content: center;
+}
+
+.element {
+  align-self: center;
+  width: 33.3333%;
+  height: 30vh;
+}
+
+.e1 {
+  background: #4e89ae;
+  color: white;
+}
+
+.e2, .e3, .e4 {
+  color: #43658b;
+}
+
+.e2 {
+  background: #ed6663;
+}
+
+.e3 {
+  background: #ffa372;
+}
+
+.e4 {
+  background:#ffa372;
+}
